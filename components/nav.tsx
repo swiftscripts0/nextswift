@@ -237,20 +237,14 @@ export function Nav({ className = "" }: NavProps) {
                       </DropdownMenuItem>
                     </>
                   ) : (
-                    (
-                      <>
+                    <>
                       <DropdownMenuItem onSelect={() => setIsLoginModalOpen(true)}>
                         Log in
-                      </DropdownMenuItem>
-                      <DropdownMenuItem onSelectHere's the continuation from the cut-off point:
-
-in
                       </DropdownMenuItem>
                       <DropdownMenuItem onSelect={() => setIsSignupModalOpen(true)}>
                         Sign up
                       </DropdownMenuItem>
                     </>
-                    )
                   )}
                 </DropdownMenuContent>
               </DropdownMenu>
@@ -264,4 +258,3 @@ in
     </nav>
   )
 }
-
